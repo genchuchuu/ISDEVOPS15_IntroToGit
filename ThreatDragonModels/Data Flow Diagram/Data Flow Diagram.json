@@ -669,14 +669,49 @@
             },
             "vertices": [
               {
-                "x": 240,
+                "x": 210,
                 "y": 280
               },
               {
                 "x": 330,
                 "y": 310
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -725,8 +760,8 @@
             },
             "vertices": [
               {
-                "x": 230,
-                "y": 400
+                "x": 240,
+                "y": 364
               }
             ]
           },
@@ -768,13 +803,19 @@
             ],
             "id": "70355cb2-efbb-4e2c-a5ea-db36654e06fc",
             "source": {
-              "x": 380,
-              "y": 360
+              "cell": "e3bb661e-39c6-4f68-9930-317d0b96d9ad",
+              "port": "5fbffa46-7ac5-4ac7-899c-7382ee171dcd"
             },
             "target": {
               "cell": "85344cb4-8865-47ba-a5e5-0479276f273d",
               "port": "71e6b78f-913c-4fff-896b-5dc346b516c4"
-            }
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 420
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -796,7 +837,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "User Is Authenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -810,17 +851,23 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "User Is Authenticated"
             ],
             "id": "eee291d8-ec4f-458f-b99b-9332f7fb455d",
             "source": {
-              "x": 350,
-              "y": 330
+              "cell": "e3bb661e-39c6-4f68-9930-317d0b96d9ad",
+              "port": "058dcb79-530c-41aa-8f3d-1c0770ae3d74"
             },
             "target": {
               "cell": "85344cb4-8865-47ba-a5e5-0479276f273d",
               "port": "507ccea1-30f6-474c-b798-711b5851b960"
-            }
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 310
+              }
+            ]
           }
         ]
       }
